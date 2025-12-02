@@ -105,13 +105,14 @@ export default async function Page() {
 ];
 
 interface ArticlePageProps {
-  params: {
-    slug: string;
-  };
+  // Next.js expects `params` to be a Promise (or undefined) in the generated PageProps.
+  // Make it optional and a Promise to satisfy the framework's type checks.
+  params?: Promise<{ slug: string }>;
 }
 
-export default function ArticlePage({ params }: ArticlePageProps) {
-  const { slug } = params;
+export default async function ArticlePage({ params }: ArticlePageProps) {
+  const resolvedParams = params ? await params : { slug: "" };
+  const { slug } = resolvedParams;
   const article = articles.find((a) => a.slug === slug);
 
   if (!article) {
