@@ -13,7 +13,7 @@ const articles = [
     publishDate: "Jul 15, 2024",
     readingTime: "7 min",
     description: "A comprehensive guide to building your first application with Next.js 14 and the App Router.",
-    imageUrl: "https://images.unsplash.com/photo-1633356122544-cd3608a92f77?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Updated image URL
     content: `
       <p class="mb-4">Next.js 14 brings exciting new features and improvements, making web development even more efficient and enjoyable. This guide will walk you through the essential steps to get your first Next.js 14 application up and running using the App Router.</p>
       <h2 class="text-2xl font-bold mb-3">1. Setting up your project</h2>
@@ -79,7 +79,7 @@ export default async function Page() {
     publishDate: "Jul 01, 2024",
     readingTime: "8 min",
     description: "Explore how TypeScript enhances code quality, maintainability, and developer experience.",
-    imageUrl: "https://images.unsplash.com/photo-1627398242478-0d4711877664?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Updated image URL
     content: `
       <p class="mb-4">TypeScript has become an indispensable tool for building robust and scalable web applications. As a superset of JavaScript, it adds static typing, which helps catch errors early in the development cycle and improves code maintainability.</p>
       <h2 class="text-2xl font-bold mb-3">Why Use TypeScript?</h2>

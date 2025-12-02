@@ -14,7 +14,7 @@ export default function Home() {
       publishDate: "Jul 15, 2024",
       readingTime: "7 min",
       description: "A comprehensive guide to building your first application with Next.js 14 and the App Router.",
-      imageUrl: "https://images.unsplash.com/photo-1633356122544-cd3608a92f77?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Updated image URL
     },
     {
       slug: "understanding-tailwind-css",
@@ -34,7 +34,7 @@ export default function Home() {
       publishDate: "Jul 01, 2024",
       readingTime: "8 min",
       description: "Explore how TypeScript enhances code quality, maintainability, and developer experience.",
-      imageUrl: "https://images.unsplash.com/photo-1627398242478-0d4711877664?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Updated image URL
     },
   ];
 
