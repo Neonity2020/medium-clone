@@ -1,6 +1,7 @@
 import { MadeWithDyad } from "@/components/made-with-dyad";
 import { ArticleCard } from "@/components/ArticleCard";
 import { Button } from "@/components/ui/button";
+import Link from "next/link"; // Import Link
 
 export default function Home() {
   // Placeholder data for articles
@@ -50,9 +51,11 @@ export default function Home() {
               <p className="text-xl md:text-2xl mb-6 max-w-lg">
                 Discover stories, thinking, and expertise from writers on any topic.
               </p>
-              <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-                Start reading
-              </Button>
+              <Link href={`/article/${articles[0].slug}`}> {/* Link to the first article */}
+                <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+                  Start reading
+                </Button>
+              </Link>
             </div>
             <div className="hidden md:block">
               {/* Placeholder for an image or illustration */}
