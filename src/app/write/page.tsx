@@ -57,7 +57,7 @@ export default function WritePage() {
   }
 
   return (
-    <div className="container py-10 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
+    <div className="container py-10 max-w-3xl mx-auto"> {/* Removed px-4 sm:px-6 lg:px-8 */}
       <h1 className="text-3xl font-bold mb-6">Write a New Article</h1>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">

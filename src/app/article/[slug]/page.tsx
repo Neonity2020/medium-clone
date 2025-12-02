@@ -132,7 +132,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   }
 
   return (
-    <div className="container py-10 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
+    <div className="container py-10 max-w-3xl mx-auto"> {/* Removed px-4 sm:px-6 lg:px-8 */}
       <Link href="/" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-6">
         <ChevronLeft className="mr-1 h-4 w-4" />
         Back to Home

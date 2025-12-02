@@ -43,7 +43,7 @@ export default function Home() {
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-primary text-primary-foreground py-20">
-          <div className="container flex flex-col md:flex-row items-center justify-between gap-8 px-4 sm:px-6 lg:px-8">
+          <div className="container flex flex-col md:flex-row items-center justify-between gap-8"> {/* Removed px-4 sm:px-6 lg:px-8 */}
             <div className="text-center md:text-left">
               <h1 className="text-5xl md:text-6xl font-bold mb-4">
                 Stay curious.
@@ -65,9 +65,9 @@ export default function Home() {
         </section>
 
         {/* Articles Section */}
-        <section className="container py-10 px-4 sm:px-6 lg:px-8">
+        <section className="container py-10"> {/* Removed px-4 sm:px-6 lg:px-8 */}
           <h2 className="text-2xl font-bold mb-6">Trending on Medium Clone</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6"> {/* Changed lg:grid-cols-3 to lg:grid-cols-2 */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             {articles.map((article) => (
               <ArticleCard key={article.slug} {...article} />
             ))}

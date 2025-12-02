@@ -53,7 +53,7 @@ export default function SignUpPage() {
   }
 
   return (
-    <div className="container py-10 px-4 sm:px-6 lg:px-8 max-w-md mx-auto">
+    <div className="container py-10 max-w-md mx-auto"> {/* Removed px-4 sm:px-6 lg:px-8 */}
       <h1 className="text-3xl font-bold mb-6 text-center">Sign Up</h1>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">

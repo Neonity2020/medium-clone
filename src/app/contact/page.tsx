@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ContactPage() {
   return (
-    <div className="container py-10 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
+    <div className="container py-10 max-w-3xl mx-auto"> {/* Removed px-4 sm:px-6 lg:px-8 */}
       <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
       <p className="text-lg text-muted-foreground mb-4">
         Have questions, feedback, or suggestions? We'd love to hear from you!
