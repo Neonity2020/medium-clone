@@ -67,7 +67,7 @@ export default function Home() {
         {/* Articles Section */}
         <section className="container py-10 px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold mb-6">Trending on Medium Clone</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6"> {/* Changed lg:grid-cols-3 to lg:grid-cols-2 */}
             {articles.map((article) => (
               <ArticleCard key={article.slug} {...article} />
             ))}
