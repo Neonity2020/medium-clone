@@ -26,11 +26,11 @@ const articles = [
       <ul class="list-disc list-inside mb-4">
         <li><strong>Layouts:</strong> Shared UI that remains consistent across multiple routes.</li>
         <li><strong>Pages:</strong> UI unique to a route.</li>
-        <li><strong>Loading UI:</strong> Instant loading states with `loading.tsx`.</li>
-        <li><strong>Error UI:</strong> Graceful error handling with `error.tsx`.</li>
+        <li><strong>Loading UI:</strong> Instant loading states with <code>loading.tsx</code>.</li>
+        <li><strong>Error UI:</strong> Graceful error handling with <code>error.tsx</code>.</li>
       </ul>
       <h2 class="text-2xl font-bold mb-3">3. Data Fetching</h2>
-      <p class="mb-4">With the App Router, data fetching can be done directly within Server Components using `async/await`. This allows you to fetch data closer to your data source, reducing client-side JavaScript bundles.</p>
+      <p class="mb-4">With the App Router, data fetching can be done directly within Server Components using <code>async/await</code>. This allows you to fetch data closer to your data source, reducing client-side JavaScript bundles.</p>
       <pre class="bg-muted p-3 rounded-md mb-4 text-sm"><code>async function getData() {
   const res = await fetch('https://api.example.com/data');
   if (!res.ok) {
