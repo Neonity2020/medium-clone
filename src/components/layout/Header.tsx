@@ -38,10 +38,12 @@ export function Header() {
           <Button size="sm">
             Sign Up
           </Button>
-          <Button variant="ghost" size="sm" className="hidden md:flex items-center space-x-2">
-            <PenSquare className="h-4 w-4" />
-            <span>Write</span>
-          </Button>
+          <Link href="/write"> {/* Link to the new write page */}
+            <Button variant="ghost" size="sm" className="hidden md:flex items-center space-x-2">
+              <PenSquare className="h-4 w-4" />
+              <span>Write</span>
+            </Button>
+          </Link>
         </div>
       </div>
     </header>
