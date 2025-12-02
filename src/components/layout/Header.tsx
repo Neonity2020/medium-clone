@@ -1,5 +1,6 @@
 "use client";
 
+import React from 'react';
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { PenSquare } from "lucide-react";
@@ -19,13 +20,13 @@ export function Header() {
             Home
           </Link>
           <Link
-            href="/about" {/* Link to the new About page */}
+            href="/about"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             About
           </Link>
           <Link
-            href="/contact" {/* Link to the new Contact page */}
+            href="/contact"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Contact
