@@ -32,13 +32,17 @@ export function Header() {
           </Link>
         </nav>
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" size="sm">
-            Sign In
-          </Button>
-          <Button size="sm">
-            Sign Up
-          </Button>
-          <Link href="/write"> {/* Link to the new write page */}
+          <Link href="/auth/signin">
+            <Button variant="ghost" size="sm">
+              Sign In
+            </Button>
+          </Link>
+          <Link href="/auth/signup">
+            <Button size="sm">
+              Sign Up
+            </Button>
+          </Link>
+          <Link href="/write">
             <Button variant="ghost" size="sm" className="hidden md:flex items-center space-x-2">
               <PenSquare className="h-4 w-4" />
               <span>Write</span>
