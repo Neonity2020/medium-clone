@@ -13,19 +13,19 @@ export function Header() {
         </Link>
         <nav className="flex items-center space-x-4 lg:space-x-6">
           <Link
-            href="#"
+            href="/"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Home
           </Link>
           <Link
-            href="#"
+            href="/about" {/* Link to the new About page */}
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             About
           </Link>
           <Link
-            href="#"
+            href="/contact" {/* Link to the new Contact page */}
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Contact
