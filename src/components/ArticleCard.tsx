@@ -51,7 +51,7 @@ export function ArticleCard({
           </div>
         </div>
         {imageUrl && (
-          <div className="w-full sm:w-40 sm:h-32 flex-shrink-0">
+          <div className="w-full sm:w-40 sm:h-32 lg:w-32 lg:h-24 flex-shrink-0"> {/* Added lg:w-32 lg:h-24 for larger screens */}
             <img
               src={imageUrl}
               alt={title}
