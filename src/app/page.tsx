@@ -1,4 +1,4 @@
-import { MadeWithDyad } from "@/components/made-with-dyad";
+import { Neonity } from "@/components/neonity";
 import { ArticleCard } from "@/components/ArticleCard";
 import { Button } from "@/components/ui/button";
 import Link from "next/link"; // Import Link
@@ -29,6 +29,17 @@ export default function Home() {
     {
       slug: "the-power-of-typescript",
       title: "The Power of TypeScript in Modern Web Applications",
+      authorName: "Alice Johnson",
+      authorAvatarUrl: "https://api.dicebear.com/7.x/initials/svg?seed=AJ",
+      publishDate: "Jul 01, 2024",
+      readingTime: "8 min",
+      description: "Explore how TypeScript enhances code quality, maintainability, and developer experience.",
+      imageUrl: "https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Updated image URL
+    },
+    // Add more articles as needed...
+        {
+      slug: "wild-fullstack-cultivation",
+      title: "教你一套左脚踩右脚的野生全栈修仙之道",
       authorName: "Alice Johnson",
       authorAvatarUrl: "https://api.dicebear.com/7.x/initials/svg?seed=AJ",
       publishDate: "Jul 01, 2024",
@@ -74,7 +85,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <MadeWithDyad />
+      <Neonity />
     </div>
   );
 }
