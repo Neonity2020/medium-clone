@@ -1,3 +1,6 @@
+"use client";
+
+import React from 'react';
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
@@ -48,11 +51,11 @@ export function ArticleCard({
           </div>
         </div>
         {imageUrl && (
-          <div className="w-full sm:w-40 sm:h-32 flex-shrink-0"> {/* Added sm:h-32 to explicitly set height on small screens and up */}
+          <div className="w-full sm:w-40 sm:h-32 flex-shrink-0">
             <img
               src={imageUrl}
               alt={title}
-              className="w-full h-full object-cover rounded-md" {/* Changed h-32 to h-full to fill parent container */}
+              className="w-full h-full object-cover rounded-md"
             />
           </div>
         )}
